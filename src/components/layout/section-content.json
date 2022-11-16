@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_layout_section_contents",
+  "info": {
+    "displayName": "Section_Content",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Link_Text": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
